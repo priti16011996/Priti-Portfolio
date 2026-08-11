@@ -2,10 +2,27 @@ import React from 'react'
 import './Nav.css'
 import { Link } from 'react-scroll';
 import { useRef } from 'react';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 function Nav() {
     let hamburgerRef = React.useRef(null);
     let mobileMenuRef = React.useRef(null);
+
+    useGSAP(() => {
+        let t1 = gsap.timeline();
+        t1.from("nav h1", {
+            y: -100,
+            duration: 1,
+            opacity: 0
+        })
+        t1.from("nav ul li", {
+            y: -100,
+            duration: 1,
+            opacity: 0,
+            stagger: 1
+        })
+    })
     return (
         <>
             <nav>
@@ -17,6 +34,7 @@ function Nav() {
                             spy={true}
                             smooth={true}
                             duration={500}
+                            offset={-90}
                             activeClass="active"
                         >
                             Home
@@ -29,6 +47,7 @@ function Nav() {
                             spy={true}
                             smooth={true}
                             duration={500}
+                            offset={-90}
                             activeClass="active"
                         >
                             About
@@ -41,6 +60,7 @@ function Nav() {
                             spy={true}
                             smooth={true}
                             duration={500}
+                            offset={-90}
                             activeClass="active"
                         >
                             Projects
@@ -53,6 +73,7 @@ function Nav() {
                             spy={true}
                             smooth={true}
                             duration={500}
+                            offset={-90}
                             activeClass="active"
                         >
                             Contact
