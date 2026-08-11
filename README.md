@@ -254,9 +254,7 @@ const formId = import.meta.env.VITE_FORMSPREE_ID;
 
 The portfolio can be deployed using platforms such as:
 
-* Vercel
 * Netlify
-* GitHub Pages
 
 For production deployment, create the production build using:
 
@@ -312,9 +310,9 @@ Full Stack Developer | MERN | Node.js | Express.js | MongoDB | React.js | PHP | 
 
 ### Connect With Me
 
-* LinkedIn: [Add LinkedIn URL]
-* GitHub: [Add GitHub URL]
-* Portfolio: [Add Portfolio URL]
+* LinkedIn: https://www.linkedin.com/in/priti-maurya16/
+* GitHub: https://github.com/priti16011996/Priti-Portfolio
+* Portfolio: https://singular-stroopwafel-b5b591.netlify.app/
 
 ## License
 
