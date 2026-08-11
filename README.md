@@ -4,7 +4,7 @@ A modern and responsive **Full Stack Developer Portfolio** built with **React.js
 
 ## Live Website
 
-🌐 **Portfolio:** [Add your portfolio URL here]
+🌐 **Portfolio:https://www.linkedin.com/in/priti-maurya16/
 
 ## Features
 
